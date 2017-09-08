@@ -19,6 +19,7 @@ before_install:
   - python --version
   - git --version
   - pip install -r requirements.txt
+  - sudo apt-get install -y libportaudio-dev
 
 install:
   # git describe requires complete history
